@@ -1,0 +1,8 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InZzdG9kZCIsImlkIjoiNjU2YTM4YmNiM2E1YjRkZmNhMmRjMWMyIiwiaWF0IjoxNzAxNDYxNzI1fQ.6lPosKenyik7yk8QZ3tcoiWfbFI3KxjRoZZv3eSOcbE
+
+{
+  "content": "Save me",
+  "important": false
+}
